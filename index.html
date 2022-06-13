@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/index.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
     </script>
-    <script></script>
+    <script defer src="js/index.js"></script>
     <title>E-trans - Начни двигаться по новому</title>
 </head>
 <body>
@@ -50,7 +50,7 @@
 
         <section class="product" id="gyroscooter">
             <div class="container product__container">
-                <img src="./img/gyroscooter.png" alt="Here's a gyroscooter">
+                <img class="product__photo" src="./img/gyroscooter.png" alt="Here's a gyroscooter">
                 <div class="product__content">
                     <h2 class="product__title">Гироскутер</h2>
                     <p class="product__description">Гироскутер  — уличное электрическое транспортное средство, выполненное в форме двух соединённых поперечных площадок для ступней, подвижных относительно друг друга, с колёсами по бокам. Использует электродвигатели, питаемые от электроаккумулятора, и ряд гироскопических датчиков для самобалансировки и поддержания горизонтального положения площадки для ног.</p>
@@ -66,13 +66,13 @@
                     <p class="product__description">Электрический самобалансирующийся уницикл (моноцикл) с одним колесом и расположенными по обе стороны от колеса подножками. Моноколесо является глубокой модернизацией Segway — электрическое самобалансирующееся транспортное средство компании Segway с двумя колёсами, расположенными по обе стороны от водителя, внешне напоминающее колесницу. Изобретено Шейном Ченом.</p>
                     <button class="product__btn">Выбрать</button>
                 </div>
-                <img src="./img/monowheel.png" alt="Here's a monowheel">
+                <img class="product__photo" src="./img/monowheel.png" alt="Here's a monowheel">
             </div>
         </section>
 
         <section class="product" id="electroscooter">
             <div class="container product__container">
-                <img src="./img/electroscooter.png" alt="Here's a electroscooter">
+                <img class="product__photo" src="./img/electroscooter.png" alt="Here's a electroscooter">
                 <div class="product__content">
                     <h2 class="product__title">Электросамокат</h2>
                     <p class="product__description">Работает электросамокат следующим образом. Аккумуляторная батарея приводит в действие электродвигатель, конкретные параметры его работы зависят от установленного режима. Режимом работы управляет контроллер, который ориентируется на команды водителя, отдаваемые с рукоятки акселератора и информацию с датчиков. Электродвигатель формирует вращательный момент, передающийся на колесо. Колеса вращаются, самокат движется, вы едете.</p>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="footer__column contacts">
                     <h3 class="footer__title">Контакты:</h3>
-                    <div class="contacts__list">
+                    <div class="contacts__list contacts__list_footer">
                         <a class="contacts__link" href="tel:73848833812">+7(384)883-38-12</a>
 
                         <a class="contacts__link" href="mailto:ETrans@gmail.com">ETrans@gmail.com</a>
