@@ -561,7 +561,7 @@ img, svg {
     }
 
     .hero__btn {
-        width: 290px;
+        width: 100%;
     }
 
     .product:nth-child(odd) .product__container {
@@ -574,11 +574,11 @@ img, svg {
     }
 
     .product__description {
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 4;
     }
 
     .product__btn {
-        width: 290px;
+        width: 100%;
     }
 
     .contacts__title {
